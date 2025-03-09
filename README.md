@@ -1,4 +1,4 @@
-*UNIVERSITY of Grandeur* - Student Portal Dashboard
+🔗*UNIVERSITY of Grandeur* - Student Portal Dashboard
 
 A responsive and interactive imaginary student portal dashboard designed for students.
 

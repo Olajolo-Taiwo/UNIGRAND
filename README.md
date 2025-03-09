@@ -1,9 +1,8 @@
-UNIVERSITY - Student Portal Dashboard
+*UNIVERSITY of Grandeur* - Student Portal Dashboard
 
-A responsive and interactive student portal dashboard designed for students.
+A responsive and interactive imaginary student portal dashboard designed for students.
 
-Features
-
+*Features*
 ✅ Responsive student dashboard
 ✅ Interactive UI with animations
 ✅ Sidebar navigation for easy access
@@ -11,40 +10,24 @@ Features
 ✅ Profile management
 ✅ Light and dark mode support
 
-Tech Stack
-
+*Tech Stack*
 HTML – Structuring the web pages
-
 CSS – Styling and responsiveness
-
 JavaScript – Adding interactivity
 
 
-
-1. Clone the repository:
-
+*Clone the repository:*
 git clone https://github.com/Olajolo-Taiwo/unigrand.git
 
 
-2. Navigate to the project folder:
-
-cd unigrand
-
-
-3. Open index.html in your browser.
-
-#https//:unigrand.vercel.app
-
-Click here to view the live demo
-
-Code Structure
+*Code Structure*
 
 /unigrand
 │── index.html  # Main dashboard page
 │── courses.html  # courses page
 │── styles      # Stylesheets
 │── scripts     # JavaScript files
-│── assets/     # Images
+│── images/     # Images
 │── README.md   # Project documentation
 
 Contributing
@@ -54,4 +37,3 @@ Feel free to fork this repository and submit pull requests!
 Contact
 
 📧 timilehinolajolo@gmail.com
-🔗 GitHub | LinkedIn

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Portal - UNIGRAND<</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/hostel.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">UNIGRAND<</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Dashboard</a></li>
+                <li><a href="courses.html">📚 Courses</a></li>
+                <li><a href="result.html">📜 Results</a></li>
+                <li><a href="hostel.html" class="active">🏡 Hostel Portal</a></li>
+                <li><a href="profile.html">👤 Profile</a></li>
+                <li><a href="options.html">⚙️ More Options</a></li>
+            </ul>
+        </nav>
+        <button class="dark-mode-toggle">🌙 Dark Mode</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+        <header>
+            <h1>🏡 Hostel Portal</h1>
+            <button class="menu-toggle">☰</button>
+        </header>
+
+        <!-- School Hostel Section -->
+        <section class="hostel-section">
+            <h2>🏢 School Hostels</h2>
+            <table class="hostel-table">
+                <thead>
+                    <tr>
+                        <th>Hostel Name</th>
+                        <th>Capacity</th>
+                        <th>Price (₦)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Moremi Hall</td><td>2 per room</td><td>80,000</td></tr>
+                    <tr><td>Queen Amina Hostel</td><td>4 per room</td><td>60,000</td></tr>
+                    <tr><td>Funmilayo Ransome-Kuti Hostel</td><td>6 per room</td><td>40,000</td></tr>
+                    <tr><td>Stella Hall</td><td>8 per room</td><td>20,000</td></tr>
+                    <tr><td>Obafemi Awolowo Hall</td><td>12 per room</td><td>10,000</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Private Hostel Section -->
+        <section class="hostel-section">
+            <h2>🏘️ Private Hostels</h2>
+            <table class="hostel-table">
+                <thead>
+                    <tr>
+                        <th>Hostel Name</th>
+                        <th>Capacity</th>
+                        <th>Price (₦)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Rosewood Villa</td><td>2 per room</td><td>200,000</td></tr>
+                    <tr><td>Emerald Lodge</td><td>3 per room</td><td>250,000</td></tr>
+                    <tr><td>Crystal Haven</td><td>Single Room</td><td>350,000</td></tr>
+                    <tr><td>Maple Court</td><td>2 per room</td><td>300,000</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Hostel Allocation Status -->
+        <section class="hostel-allocation">
+            <h2>🏠 Hostel Allocation</h2>
+            <p><strong>Status:</strong> Private Hostel - 2 per Room (Maple Court)</p>
+            <a href="hostel-allocation.pdf" download class="download-btn">📥 Download Hostel Allocation</a>
+        </section>
+        <footer>
+          <p>&copy; 2021 UNIVERSITY OF GRANDEUR. All rights reserved.</p>
+        </footer>
+    </main>
+
+</body>
+<script defer src="scripts/hostel.js"></script>
+<script defer src="scripts/script.js"></script>
+</html>

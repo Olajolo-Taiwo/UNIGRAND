@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University of Grandeur - Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+<aside class="sidebar">
+    <h2 class="logo">UNIGRAND</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">🏠 Dashboard</a></li>
+            <li><a href="courses.html">📚 Courses</a></li>
+            <li><a href="result.html">📜 Results</a></li>
+            <li><a href="hostel.html">📖 Hostel</a></li>
+            <li><a href="profile.html">👤 Profile</a></li>
+            <li><a href="options.html">⚙️ More Options</a></li>
+        </ul>
+    </nav>
+    <button class="dark-mode-toggle"> Dark Mode</button>
+</aside>
+
+    <!-- Main Content -->
+<main class="content">
+    <header>
+        <h1>Welcome, Timilehin Olajolo</h1>
+        <button class="menu-toggle">☰</button>
+    </header>
+
+<section class="dashboard">
+    <div class="card">
+        <h3>📢 Announcements</h3>
+        <p>🔹 Exam timetable is out for 1st semester!</p>
+        <p>🔹 Course registration closes on March 20th.</p>
+        <p>🔹 Onboard Portal: Activate Hybrid Learning Portal</p>
+    </div>
+            
+    <div class="card">
+        <h3>🔗 Quick Links</h3>
+        <ul>
+            <li>   <a href="rectification-form.pdf" download class="download-btn">📥 Download School Fees Receipt</a></li>
+            <li>   <a href="rectification-form.pdf" download class="download-btn">📥 Download Course Form</a></li>
+            <li>   <a href="rectification-form.pdf" download class="download-btn">📥 Lecture Timetable</a></li>
+            <li>   <a href="rectification-form.pdf" download class="download-btn">📥 Download Liabary Pass</a></li>
+        </ul>
+    </div>
+</section>
+    
+<section class="profile-section">
+    <div class="profile-card">
+        <img src="images/download.png" alt="Student Photo" class="profile-pic">
+        <h2 id="student-name">Timilehin Olajolo</h2>
+        <p><strong>Department:</strong> <span id="department">Agricultural Engineering</span></p>
+        <p><strong>Level:</strong> <span id="level">300</span></p>
+        <p><strong>Faculty:</strong> <span id="faculty">Engineering</span></p>
+        <p><strong>School Fee Status:</strong> <span id="fee-status" class="paid">Paid</span></p>
+        <button id="editProfile">Edit Profile</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2021 UNIVERSITY OF GRANDEUR. All rights reserved.</p>
+</footer>
+</main>
+</body>
+<script defer src="scripts/script.js"></script>
+</html>
+
+

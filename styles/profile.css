@@ -1,0 +1,13 @@
+/* Dark Mode */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .profile-card {
+  background: #333;
+}
+
+.dark-mode button {
+  background-color: #555;
+}

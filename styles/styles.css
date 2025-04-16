@@ -101,7 +101,7 @@ header {
   padding: 15px;
   border-bottom: 0%;
   border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
@@ -114,7 +114,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 40vh;
   margin-top: 5%;
 }
 

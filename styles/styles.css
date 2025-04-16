@@ -1,6 +1,7 @@
 /* General Styling */
 body {
   display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f4f4f4;
@@ -149,12 +150,14 @@ header {
 
 footer {
   text-align: center;
-
+  flex: 1;
   color: black;
   padding: 1px;
   width: 100%;
   font-family: Arial, sans-serif;
   font-size: 10px; 
+ justify-content: center;
+ align-items: center;
 }
 
 
@@ -178,4 +181,25 @@ footer {
   }
 }
 
+•med-btn {
+display: inline-block;
+background: blue;
+color: white;
+padding: 0px 10px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+margin-top: 10px;
+}
 
+•med-btn:hover {
+background: #ffffff
+color: #000
+border: #000 1px solid;
+}
+
+•med-btn:active {
+background: #ffffff
+color: #000
+border: #000 1px solid;
+}

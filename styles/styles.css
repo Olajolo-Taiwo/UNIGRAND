@@ -1,6 +1,7 @@
 /* General Styling */
 body {
   display: flex;
+flex-direction: column;
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f4f4f4;
@@ -91,7 +92,7 @@ header {
 /* Dashboard Cards */
 .dashboard {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
   gap: 3%;
   margin-top: 20px;
 }
@@ -114,8 +115,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin-top: 5%;
+  height: 70vh;
+  margin-top: 0px;
 }
 
 .profile-card {
@@ -147,15 +148,42 @@ header {
 }
 
 footer {
-  text-align: center;
-
+  display: flex;
+  flex:1;
+  
   color: black;
   padding: 1px;
   width: 100%;
   font-family: Arial, sans-serif;
   font-size: 10px; 
+  align-items: center;
+  justify-content: center;
 }
 
+
+
+.med-btn {
+  display: inline-block;
+  background: #0031ad;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.med-btn:hover {
+  background: #ffffff;
+  color: #000;
+  border: #000 1px solid;
+}
+.med-btn:active {
+  background: #e3dcdc;
+  color: #000;
+  border: #000 1px solid;
+
+}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

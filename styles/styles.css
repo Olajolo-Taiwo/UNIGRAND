@@ -91,7 +91,7 @@ header {
 /* Dashboard Cards */
 .dashboard {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
   gap: 2%;
   margin-top: 20px;
 }

@@ -55,23 +55,3 @@
 .download-btn:hover {
   background: #e6b800;
 }
-
-/* Dark Mode */
-.dark-mode {
-  background-color: #1e1e1e;
-  color: white;
-}
-
-.dark-mode .results-table {
-  background: #333;
-  color: white;
-}
-
-.dark-mode .results-table th {
-  background: #1a1a5e;
-}
-
-.dark-mode .rectification {
-  background: #444;
-  border-left: 5px solid #ffcc00;
-}

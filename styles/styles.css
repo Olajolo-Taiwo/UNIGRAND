@@ -12,10 +12,15 @@ body {
   width: 250px;
   background: #2a2a72;
   color: white;
-  height: 100vh;
+  height: 170vh;
   padding: 20px;
   position: fixed;
+  transform: translateX(-100%);
   transition: transform 0.3s;
+  z-index: 1000;
+}
+.sidebar.open{
+  transform: translateX(0);
 }
 
 .logo {
@@ -44,11 +49,11 @@ body {
   background: #1a1a5e;
 }
 
-/* Dark Mode Button */
-.dark-mode-toggle {
+/* Sign out Button */
+.signup-button {
   width: 100%;
   padding: 10px;
-  background: #ffcc00;
+  background: #fffcf1;
   border: none;
   font-size: 16px;
   cursor: pointer;
@@ -57,12 +62,14 @@ body {
 
 /* Main Content */
 .content {
-  margin-left: 250px;
+  margin-left: 0;
   flex: 1;
   padding: 20px;
   transition: margin-left 0.3s;
 }
-
+.sidebar.open ~ .content {
+  margin-left: 0%;
+}
 /* Header */
 header {
   display: flex;
@@ -78,7 +85,7 @@ header {
   border: none;
   font-size: 24px;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 
 /* Dashboard Cards */
@@ -145,6 +152,7 @@ footer {
   font-family: Arial, sans-serif;
   font-size: 10px; 
 }
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

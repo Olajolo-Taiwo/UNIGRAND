@@ -60,22 +60,3 @@
   color: orange;
   font-weight: bold;
 }
-
-/* Dark Mode */
-.dark-mode {
-  background-color: #1e1e1e;
-  color: white;
-}
-
-.dark-mode .course-table {
-  background: #333;
-  color: white;
-}
-
-.dark-mode .course-table th {
-  background: #1a1a5e;
-}
-
-.dark-mode .pending {
-  color: yellow;
-}

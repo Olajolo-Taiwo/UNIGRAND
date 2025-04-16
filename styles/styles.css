@@ -7,7 +7,7 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* Sidebar */
+/* Sidebar styles */
 .sidebar {
   width: 250px;
   background: #2a2a72;

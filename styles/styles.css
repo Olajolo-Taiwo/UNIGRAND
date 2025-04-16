@@ -116,7 +116,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 90%;
   margin-top: 5%;
 }
 
@@ -160,27 +160,6 @@ footer {
  align-items: center;
 }
 
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  .sidebar {
-      transform: translateX(-100%);
-      position: absolute;
-  }
-
-  .content {
-      margin-left: 0;
-  }
-
-  .menu-toggle {
-      display: block;
-  }
-  
-  .sidebar.open {
-      transform: translateX(0);
-  }
-}
-
 •med-btn {
 display: inline-block;
 background: blue;
@@ -203,3 +182,26 @@ background: #ffffff
 color: #000
 border: #000 1px solid;
 }
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .sidebar {
+      transform: translateX(-100%);
+      position: absolute;
+  }
+
+  .content {
+      margin-left: 0;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+  
+  .sidebar.open {
+      transform: translateX(0);
+  }
+}
+
